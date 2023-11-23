@@ -1,0 +1,80 @@
+/* AlbumManagement.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* App container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .album-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around; /* Center the cards horizontally */
+  }
+  
+  .album-card {
+    width: 200px; /* Set a fixed width for each card */
+    height: 250px; /* Set a fixed height for each card */
+    background-color: #f8f8f8; /* Card background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  .album-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .album-actions {
+    display: flex;
+    justify-content: flex-end; /* Align actions to the right */
+    align-items: center;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
